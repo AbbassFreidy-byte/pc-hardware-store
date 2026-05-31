@@ -2,7 +2,7 @@ const caseProducts = [
   {
     id: "c1",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/Images/CaseHigh.png",
+    image: "./CaseHigh.png",
     alt: "High-End Case",
     title: "High-End Case",
     name: "Lian Li",
@@ -13,7 +13,7 @@ const caseProducts = [
   {
     id: "c2",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/Images/CaseMid.png",
+    image: "./CaseMid.png",
     alt: "Mid-End Case",
     title: "Mid-End Case",
     name: "Fractal Design",
@@ -24,7 +24,7 @@ const caseProducts = [
   {
     id: "c3",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/Images/CaseBudget.png",
+    image: "${process.env.PUBLIC_URL}/CaseBudget.png",
     alt: "Budget Case",
     title: "Budget Case",
     name: "Cooler Master",
@@ -38,7 +38,7 @@ const coolingProducts = [
   {
     id: "co1",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/Images/cooler (1).png",
+    image: "${process.env.PUBLIC_URL}/cooler (1).png",
     alt: "High-End Cooler",
     title: "High-End Cooler",
     name: "Arctic Freezer",
@@ -49,7 +49,7 @@ const coolingProducts = [
   {
     id: "co2",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/Images/cooler (2).png",
+    image: "${process.env.PUBLIC_URL}/cooler (2).png",
     alt: "Mid-End Cooler",
     title: "Mid-End Cooler",
     name: "Noctua NH-D15",
@@ -60,7 +60,7 @@ const coolingProducts = [
   {
     id: "co3",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/Images/cooler (3).png",
+    image: "${process.env.PUBLIC_URL}/cooler (3).png",
     alt: "Budget Cooler",
     title: "Budget Cooler",
     name: "Deepcool Gammaxx 400",
@@ -74,7 +74,7 @@ const cpuProducts = [
   {
     id: "cpu1",
     category: "CPU",
-    image: "/Images/cpu (3).png",
+    image: "${process.env.PUBLIC_URL}/cpu (3).png",
     alt: "High-End CPU",
     title: "High-End CPU",
     name: "Intel Core i9-13900K",
@@ -85,7 +85,7 @@ const cpuProducts = [
   {
     id: "cpu2",
     category: "CPU",
-    image: "/Images/cpu (2).png",
+    image: "${process.env.PUBLIC_URL}/cpu (2).png",
     alt: "Mid-Range CPU",
     title: "Mid-Range CPU",
     name: "Intel Core i7-13700K",
@@ -96,7 +96,7 @@ const cpuProducts = [
   {
     id: "cpu3",
     category: "CPU",
-    image: "/Images/cpu (1).png",
+    image: "${process.env.PUBLIC_URL}/cpu (1).png",
     alt: "Budget CPU",
     title: "Budget CPU",
     name: "Ryzen 5 7600X",
@@ -110,7 +110,7 @@ const gpuProducts = [
   {
     id: "gpu1",
     category: "GPU",
-    image: "/Images/rtx5090.png",
+    image: "${process.env.PUBLIC_URL}/rtx5090.png",
     alt: "High-End GPU",
     title: "High-End GPU",
     name: "RTX 5090",
