@@ -2,7 +2,7 @@ const caseProducts = [
   {
     id: "c1",
     category: "Case",
-    image: "/Images/CaseHigh.png",
+    image: "${process.env.PUBLIC_URL}/Images/CaseHigh.png",
     alt: "High-End Case",
     title: "High-End Case",
     name: "Lian Li",
@@ -13,7 +13,7 @@ const caseProducts = [
   {
     id: "c2",
     category: "Case",
-    image: "/Images/CaseMid.png",
+    image: "${process.env.PUBLIC_URL}/Images/CaseMid.png",
     alt: "Mid-End Case",
     title: "Mid-End Case",
     name: "Fractal Design",
@@ -24,7 +24,7 @@ const caseProducts = [
   {
     id: "c3",
     category: "Case",
-    image: "/Images/CaseBudget.png",
+    image: "${process.env.PUBLIC_URL}/Images/CaseBudget.png",
     alt: "Budget Case",
     title: "Budget Case",
     name: "Cooler Master",
@@ -38,7 +38,7 @@ const coolingProducts = [
   {
     id: "co1",
     category: "Cooling",
-    image: "/Images/cooler (1).png",
+    image: "${process.env.PUBLIC_URL}/Images/cooler (1).png",
     alt: "High-End Cooler",
     title: "High-End Cooler",
     name: "Arctic Freezer",
@@ -49,7 +49,7 @@ const coolingProducts = [
   {
     id: "co2",
     category: "Cooling",
-    image: "/Images/cooler (2).png",
+    image: "${process.env.PUBLIC_URL}/Images/cooler (2).png",
     alt: "Mid-End Cooler",
     title: "Mid-End Cooler",
     name: "Noctua NH-D15",
@@ -60,7 +60,7 @@ const coolingProducts = [
   {
     id: "co3",
     category: "Cooling",
-    image: "/Images/cooler (3).png",
+    image: "${process.env.PUBLIC_URL}/Images/cooler (3).png",
     alt: "Budget Cooler",
     title: "Budget Cooler",
     name: "Deepcool Gammaxx 400",
