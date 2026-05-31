@@ -1,8 +1,10 @@
+import React from "react";
+
 const caseProducts = [
   {
     id: "c1",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/CaseHigh.png",
+    image: "/CaseHigh.png",
     alt: "High-End Case",
     title: "High-End Case",
     name: "Lian Li",
@@ -13,7 +15,7 @@ const caseProducts = [
   {
     id: "c2",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/CaseMid.png",
+    image: "/CaseMid.png",
     alt: "Mid-End Case",
     title: "Mid-End Case",
     name: "Fractal Design",
@@ -24,7 +26,7 @@ const caseProducts = [
   {
     id: "c3",
     category: "Case",
-    image: "${process.env.PUBLIC_URL}/CaseBudget.png",
+    image: "/CaseBudget.png",
     alt: "Budget Case",
     title: "Budget Case",
     name: "Cooler Master",
@@ -38,7 +40,7 @@ const coolingProducts = [
   {
     id: "co1",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/cooler (1).png",
+    image: "/cooler (1).png",
     alt: "High-End Cooler",
     title: "High-End Cooler",
     name: "Arctic Freezer",
@@ -49,7 +51,7 @@ const coolingProducts = [
   {
     id: "co2",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/cooler (2).png",
+    image: "/cooler (2).png",
     alt: "Mid-End Cooler",
     title: "Mid-End Cooler",
     name: "Noctua NH-D15",
@@ -60,7 +62,7 @@ const coolingProducts = [
   {
     id: "co3",
     category: "Cooling",
-    image: "${process.env.PUBLIC_URL}/cooler (3).png",
+    image: "/cooler (3).png",
     alt: "Budget Cooler",
     title: "Budget Cooler",
     name: "Deepcool Gammaxx 400",
@@ -74,7 +76,7 @@ const cpuProducts = [
   {
     id: "cpu1",
     category: "CPU",
-    image: "${process.env.PUBLIC_URL}/cpu (3).png",
+    image: "/cpu (3).png",
     alt: "High-End CPU",
     title: "High-End CPU",
     name: "Intel Core i9-13900K",
@@ -85,7 +87,7 @@ const cpuProducts = [
   {
     id: "cpu2",
     category: "CPU",
-    image: "${process.env.PUBLIC_URL}/cpu (2).png",
+    image: "/cpu (2).png",
     alt: "Mid-Range CPU",
     title: "Mid-Range CPU",
     name: "Intel Core i7-13700K",
@@ -96,7 +98,7 @@ const cpuProducts = [
   {
     id: "cpu3",
     category: "CPU",
-    image: "${process.env.PUBLIC_URL}/cpu (1).png",
+    image: "/cpu (1).png",
     alt: "Budget CPU",
     title: "Budget CPU",
     name: "Ryzen 5 7600X",
@@ -110,7 +112,7 @@ const gpuProducts = [
   {
     id: "gpu1",
     category: "GPU",
-    image: "${process.env.PUBLIC_URL}/rtx5090.png",
+    image: "/rtx5090.png",
     alt: "High-End GPU",
     title: "High-End GPU",
     name: "RTX 5090",
@@ -121,7 +123,7 @@ const gpuProducts = [
   {
     id: "gpu2",
     category: "GPU",
-    image: "${process.env.PUBLIC_URL}/rtx5080.png",
+    image: "/rtx5080.png",
     alt: "Mid-Range GPU",
     title: "Mid-Range GPU",
     name: "RTX 5080",
@@ -132,7 +134,7 @@ const gpuProducts = [
   {
     id: "gpu3",
     category: "GPU",
-    image: "${process.env.PUBLIC_URL}/rtx5070.png",
+    image: "/rtx5070.png",
     alt: "Budget GPU",
     title: "Budget GPU",
     name: "RTX 5070",
@@ -146,7 +148,7 @@ const moboProducts = [
   {
     id: "mobo1",
     category: "Motherboard",
-    image: "${process.env.PUBLIC_URL}/mobo (1).png",
+    image: "/mobo (1).png",
     alt: "High-End Motherboard",
     title: "High-End Motherboard",
     name: "Z790 Taichi",
@@ -157,7 +159,7 @@ const moboProducts = [
   {
     id: "mobo2",
     category: "Motherboard",
-    image: "${process.env.PUBLIC_URL}/mobo (2).png",
+    image: "/mobo (2).png",
     alt: "Mid-Range Motherboard",
     title: "Mid-Range Motherboard",
     name: "B760M DS3H",
@@ -168,7 +170,7 @@ const moboProducts = [
   {
     id: "mobo3",
     category: "Motherboard",
-    image: "${process.env.PUBLIC_URL}/mobo (3).png",
+    image: "/mobo (3).png",
     alt: "Budget Motherboard",
     title: "Budget Motherboard",
     name: "B450M DS3H",
@@ -182,7 +184,7 @@ const psuProducts = [
   {
     id: "psu1",
     category: "PSU",
-    image: "${process.env.PUBLIC_URL}/psu (1).png",
+    image: "/psu (1).png",
     alt: "High-End PSU",
     title: "High-End PSU",
     name: "Corsair AX1600",
@@ -193,7 +195,7 @@ const psuProducts = [
   {
     id: "psu2",
     category: "PSU",
-    image: "${process.env.PUBLIC_URL}/psu (2).png",
+    image: "/psu (2).png",
     alt: "Mid-Range PSU",
     title: "Mid-Range PSU",
     name: "EVGA 850W",
@@ -207,7 +209,7 @@ const ramProducts = [
   {
     id: "ram1",
     category: "RAM",
-    image: "${process.env.PUBLIC_URL}/ram (1).png",
+    image: "/ram (1).png",
     alt: "High-End RAM",
     title: "High-End RAM",
     name: "Corsair Vengeance LPX 8GB",
@@ -217,7 +219,7 @@ const ramProducts = [
   {
     id: "ram2",
     category: "RAM",
-    image: "${process.env.PUBLIC_URL}/ram (2).png",
+    image: "/ram (2).png",
     alt: "Mid-Range RAM",
     title: "Mid-Range RAM",
     name: "G.Skill Ripjaws V 4GB",
@@ -231,7 +233,7 @@ const storageProducts = [
   {
     id: "storage1",
     category: "Storage",
-    image: "${process.env.PUBLIC_URL}/storage (1).png",
+    image: "/storage (1).png",
     alt: "High-End Storage",
     title: "High-End Storage",
     name: "Seagate STGX2000",
@@ -242,7 +244,7 @@ const storageProducts = [
   {
     id: "storage2",
     category: "Storage",
-    image: "${process.env.PUBLIC_URL}/storage (2).png",
+    image: "/storage (2).png",
     alt: "Mid-Range Storage",
     title: "Mid-Range Storage",
     name: "Seagate BarraCuda",
@@ -256,7 +258,7 @@ const gamingProducts = [
   {
     id: "g1",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/High-end.webp",
+    image: "/High-end.webp",
     alt: "High-End Gaming PC",
     title: "High-End Gaming PC1",
     name: "Ultimate Gaming",
@@ -266,7 +268,7 @@ const gamingProducts = [
   {
     id: "g2",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/highend2.webp",
+    image: "/highend2.webp",
     alt: "High-End Gaming PC",
     title: "High-End Gaming PC2",
     name: "Super Gaming",
@@ -277,7 +279,7 @@ const gamingProducts = [
   {
     id: "g3",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/highend3.webp",
+    image: "/highend3.webp",
     alt: "High-End Gaming PC",
     title: "High-End Gaming PC3",
     name: "Epic Beast",
@@ -288,7 +290,7 @@ const gamingProducts = [
   {
     id: "g4",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/Midrange.webp",
+    image: "/Midrange.webp",
     alt: "Mid-Range Gaming PC",
     title: "Mid-Range Gaming PC",
     name: "Pro Gaming System",
@@ -299,7 +301,7 @@ const gamingProducts = [
   {
     id: "g5",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/Budget.webp",
+    image: "/Budget.webp",
     alt: "Budget Gaming PC",
     title: "Budget Gaming PC",
     name: "Gaming Starter PC",
@@ -310,7 +312,7 @@ const gamingProducts = [
   {
     id: "g6",
     category: "Gaming PC",
-    image: "${process.env.PUBLIC_URL}/Budget2.webp",
+    image: "/Budget2.webp",
     alt: "Budget Gaming PC",
     title: "Budget Gaming PC",
     name: "Gaming Starter PC",
@@ -324,7 +326,7 @@ const miniProducts = [
   {
     id: "m1",
     category: "Mini PC",
-    image: "${process.env.PUBLIC_URL}/HighMini.png",
+    image: "/HighMini.png",
     alt: "Compact Gaming PC",
     title: "High-End Mini PC",
     name: "High-Gaming Mini",
@@ -335,7 +337,7 @@ const miniProducts = [
   {
     id: "m2",
     category: "Mini PC",
-    image: "${process.env.PUBLIC_URL}/MidMini.png",
+    image: "/MidMini.png",
     alt: "Ultra Compact PC",
     title: "Ultra Compact PC",
     name: "High-Gaming Mini",
@@ -346,7 +348,7 @@ const miniProducts = [
   {
     id: "m3",
     category: "Mini PC",
-    image: "${process.env.PUBLIC_URL}/LowMini.png",
+    image: "/LowMini.png",
     alt: "Small Workstation",
     title: "Small Workstation",
     name: "High-Gaming Mini",
@@ -360,7 +362,7 @@ const laptopProducts = [
   {
     id: "l1",
     category: "Laptop",
-    image: "${process.env.PUBLIC_URL}/HighendLaptop.webp",
+    image: "/HighendLaptop.webp",
     alt: "Gaming Laptop",
     title: "High-End Laptop",
     name: '15" Gaming Laptop',
@@ -371,7 +373,7 @@ const laptopProducts = [
   {
     id: "l2",
     category: "Laptop",
-    image: "${process.env.PUBLIC_URL}/Midlaptop.webp",
+    image: "/Midlaptop.webp",
     alt: "Mid-Range Laptop",
     title: "Mid-Range Laptop",
     name: 'Premium Ultrabook',
@@ -382,7 +384,7 @@ const laptopProducts = [
   {
     id: "l3",
     category: "Laptop",
-    image: "${process.env.PUBLIC_URL}/Budgetlaptop.webp",
+    image: "/Budgetlaptop.webp",
     alt: "Budget Laptop",
     title: "Budget Laptop",
     name: 'Budget Laptop 14"',

@@ -9,7 +9,7 @@ const products = [{ id, image, alt, title, name, specs, price }];
 
   return (
     <div className="product-card">
-      <img src={image} alt={alt} />
+      <img src={`${process.env.PUBLIC_URL}/${image}`} alt={alt} />
       <div className="product-title">{title}</div>
       <div className="product-info">
         <div className="product-name">{name}</div>

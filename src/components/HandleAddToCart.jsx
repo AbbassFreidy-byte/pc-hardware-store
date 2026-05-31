@@ -6,7 +6,7 @@ const HandleAddToCart = ({ product }) => {
   const { addToCart } = useCart();
 
   const handleAddToCart = () => {
-    addToCart({ id: product.id, image: product.image, title: product.title, name: product.name, specs: product.specs, price: product.price });
+    addToCart({ id: product.id, image: `${process.env.PUBLIC_URL}/${product.image}`, title: product.title, name: product.name, specs: product.specs, price: product.price });
     alert(`${product.name} has been added to your cart!`);
   };
 
