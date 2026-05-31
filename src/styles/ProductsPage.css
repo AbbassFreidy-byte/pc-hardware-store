@@ -1,0 +1,9 @@
+.products-container {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;  
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  display: block;
+}

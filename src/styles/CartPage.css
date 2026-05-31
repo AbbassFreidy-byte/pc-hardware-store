@@ -1,0 +1,147 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: auto;
+  padding-bottom: 2rem;
+}
+
+.cart-container h2 {  
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.cart-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: auto;
+  max-width: 850px;
+  border: 2px solid;
+  animation: colorChanger 5s infinite alternate;
+}
+
+.cart-item {
+  display: flex;
+  /* align-items: flex; */
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cart-item h4 {
+  display: flex;
+  margin: 0;
+  font-size: 1rem;
+  color: #222;
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 150px;  
+}
+
+.cart-item p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.cart-item input {
+  width: 60px;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cart-item button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart-item button:hover {
+  background: #222222;
+}
+
+.cart-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.cart-tabs h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cart-item-description {
+  font-size: 0.9rem;
+  color: #000;
+  max-width: 350px;
+  line-height: 1.4;
+}
+
+.cart-tabs button {
+  background: #2a2a2a;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.cart-tabs button:hover {
+  background: #444;
+}
+
+.cart-items-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+@media (max-width: 600px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cart-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .cart-item h4 {
+    max-width: 100%;
+  }
+
+  .cart-item-description {
+    max-width: 100%;
+  }
+
+  .cart-tabs {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+.category-section {
+  margin-bottom: 1rem;
+}
+
+.category-title {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 0.08rem;
+  padding: 0rem;
+}
+
+.products-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  border-top: 0.125rem solid;
+  border-top-width: 0.125rem;
+  border-bottom: 0.125rem solid;
+  border-radius: 15px;
+  padding: 1rem;
+  background: #0000009c;
+  animation: colorChanger 5s infinite alternate;
+}
+
+.products-grid::-webkit-scrollbar {
+  height: 0.31rem;
+}
+
+.products-grid::-webkit-scrollbar-thumb {
+  background: #56010186;
+  border-radius: 15px;
+  width: 0rem;
+}
+

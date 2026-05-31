@@ -1,0 +1,63 @@
+nav details.Menu-box {
+  flex: 0;
+}
+
+.Menu-box .MenuOptions {
+  position: absolute;      
+  top: 6rem; 
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1.4px solid;
+  padding: 0px;
+  margin-top: 15px;
+  border-radius: 7px;
+  overflow: hidden;
+  max-height: 0; 
+  z-index: 2;
+  opacity: 0;
+  animation: colorChanger 5s infinite alternate;
+}
+
+.Menu-box[open] .MenuOptions {
+  opacity: 1; 
+  max-height: 400px;
+  overflow-y: auto; 
+}
+.Menu-box .MenuOptions::-webkit-scrollbar {
+  width: 4px;
+}
+.Menu-box .MenuOptions::-webkit-scrollbar-thumb {
+  background: rgba(145, 145, 145, 0.5);
+  border-radius: 2px;
+}
+.Menu-box summary {
+  list-style: none; 
+  cursor: pointer;
+}
+
+.Menu-box ul {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu-box li {
+  padding: 13px;
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.Menu-box li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.Menu-box img {
+  height: 50px;
+}
+
+.Menu-box li:last-child {
+  border-bottom: none; 
+}
