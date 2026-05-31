@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/ProductsPage";
@@ -21,7 +21,7 @@ import ProductDetail from "./pages/ProductURL";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <CartProvider>
       <NavBar />
       <main className="main">
@@ -44,7 +44,7 @@ function App() {
       </main>
       <Footer />
      </CartProvider>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
