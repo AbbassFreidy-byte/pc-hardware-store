@@ -8,7 +8,7 @@ const ProductPages = ({ products }) => {
     <div className="product-details-page">
       {products.map((product) => (
         <div key={product.id} className="product-details">
-          <img src={product.image} alt={product.alt} />
+          <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.alt} />
           <h2>{product.name}</h2>
           <p>{product.title}</p>
           {product.description && <p>{product.description}</p>}

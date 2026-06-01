@@ -43,7 +43,7 @@ const LogoSearch = () => {
               to={`/product/${product.id}`} 
               className="search-result-item"
             >
-              <img src={product.image} alt={product.alt} height="40" />
+              <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.alt} height="40" />
               <span>{product.name}</span>
             </Link>
           ))}
