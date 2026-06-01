@@ -28,7 +28,8 @@ nav {
   background: #000000c5;
   color: #fff;
   padding: 3px;
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   border-top: 2px solid;
   border-bottom: 2px solid;
   animation: colorChanger 5s infinite alternate;

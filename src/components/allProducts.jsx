@@ -309,17 +309,6 @@ const gamingProducts = [
     specs: ["Intel i5-13600K", "RTX 5070 12GB", "16GB DDR5 RAM", "1TB NVMe SSD"],
     price: "$1,999.99"
   },
-  {
-    id: "g6",
-    category: "Gaming PC",
-    image: "./Budget2.webp",
-    alt: "Budget Gaming PC",
-    title: "Budget Gaming PC",
-    name: "Gaming Starter PC",
-    description: "The Gaming Starter PC is a budget-friendly gaming PC that offers decent performance for casual gaming and productivity tasks. It features an Intel i5-13400 processor, RTX 5060 12GB graphics, 16GB DDR5 RAM, and 512GB NVMe SSD.",
-    specs: ["Intel i5-13400", "RTX 5060 12GB", "16GB DDR5 RAM", "512GB NVMe SSD"],
-    price: "$999.99"
-  }
 ];
 
 const miniProducts = [
