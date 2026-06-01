@@ -20,11 +20,11 @@ const Footer = () => {
       <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
         <FacebookIcon style={{ fontSize: 30, color: "#ffffff" }} />
       </a>
-      <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/AbbassFreidy-byte/pc-hardware-store.git" target="_blank" rel="noopener noreferrer">
         <GithubIcon style={{ fontSize: 30, color: "#ffffff" }} />
       </a>
     </div>
-    <Link to="/About" className="contact-link">Contact Us</Link>
+    <Link to="/About" className="about-link">About Us</Link>
   </div>
 </footer>
   );

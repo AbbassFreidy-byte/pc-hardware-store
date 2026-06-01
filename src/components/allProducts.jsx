@@ -312,7 +312,7 @@ const gamingProducts = [
   {
     id: "g6",
     category: "Gaming PC",
-    image: "/Budget2.webp",
+    image: "./Budget2.webp",
     alt: "Budget Gaming PC",
     title: "Budget Gaming PC",
     name: "Gaming Starter PC",

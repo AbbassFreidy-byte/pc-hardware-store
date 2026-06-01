@@ -39,12 +39,53 @@
   gap: 1rem;
 }
 
-.contact-link {
+.about-link {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.contact-link:hover {
+.about-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+.footer {
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-left, .footer-right {
+  flex: unset;
+  margin: 0.5rem 0;
+}
+
+.footer .copyright {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer .social-media {
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.about-link {
+  font-size: 0.9rem;
+ }
+}
+
+@media (max-width: 480px) {
+.footer .copyright {
+  font-size: 0.75rem;
+}
+
+.footer .social-media {
+  font-size: 20px;
+}
+
+.about-link {
+  font-size: 0.8rem;
+ }
 }
