@@ -4,7 +4,7 @@ const caseProducts = [
   {
     id: "c1",
     category: "Case",
-    image: "/CaseHigh.png",
+    image: "./CaseHigh.png",
     alt: "High-End Case",
     title: "High-End Case",
     name: "Lian Li",
@@ -15,7 +15,7 @@ const caseProducts = [
   {
     id: "c2",
     category: "Case",
-    image: "/CaseMid.png",
+    image: "./CaseMid.png",
     alt: "Mid-End Case",
     title: "Mid-End Case",
     name: "Fractal Design",
@@ -26,7 +26,7 @@ const caseProducts = [
   {
     id: "c3",
     category: "Case",
-    image: "/CaseBudget.png",
+    image: "./CaseBudget.png",
     alt: "Budget Case",
     title: "Budget Case",
     name: "Cooler Master",
