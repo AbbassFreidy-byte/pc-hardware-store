@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pc-hardware-store/static/css/main.9bf63400.css",
-    "main.js": "/pc-hardware-store/static/js/main.e2046128.js",
+    "main.css": "/pc-hardware-store/static/css/main.a42fddb1.css",
+    "main.js": "/pc-hardware-store/static/js/main.1eacd356.js",
     "static/js/453.97071b25.chunk.js": "/pc-hardware-store/static/js/453.97071b25.chunk.js",
     "static/media/BackgroundMain.jpg": "/pc-hardware-store/static/media/BackgroundMain.6159bd1ed8721b87463d.jpg",
     "static/media/icons8-gear-96.apng.png": "/pc-hardware-store/static/media/icons8-gear-96.apng.d9b4f873fb1e4bfcf37e.png",
@@ -10,12 +10,12 @@
     "static/media/Logo.png": "/pc-hardware-store/static/media/Logo.66d12f44fdb9085f6cb1.png",
     "static/media/icons8-laptop-96.apng.png": "/pc-hardware-store/static/media/icons8-laptop-96.apng.bc8f21acecbc39ed26fb.png",
     "index.html": "/pc-hardware-store/index.html",
-    "main.9bf63400.css.map": "/pc-hardware-store/static/css/main.9bf63400.css.map",
-    "main.e2046128.js.map": "/pc-hardware-store/static/js/main.e2046128.js.map",
+    "main.a42fddb1.css.map": "/pc-hardware-store/static/css/main.a42fddb1.css.map",
+    "main.1eacd356.js.map": "/pc-hardware-store/static/js/main.1eacd356.js.map",
     "453.97071b25.chunk.js.map": "/pc-hardware-store/static/js/453.97071b25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bf63400.css",
-    "static/js/main.e2046128.js"
+    "static/css/main.a42fddb1.css",
+    "static/js/main.1eacd356.js"
   ]
 }
