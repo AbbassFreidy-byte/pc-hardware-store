@@ -10,7 +10,7 @@ const Footer = () => {
 <footer className="footer">
   <div className="footer-left"></div>
   <div className="copyright">
-    &copy; 2026 PC Hardware Store. All rights reserved.
+    &copy; 2026 PC Hardware Store.
   </div>
   <div className="footer-right">
     <div className="social-media">

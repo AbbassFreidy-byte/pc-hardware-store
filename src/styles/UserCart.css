@@ -18,7 +18,7 @@
 
 .userCart-box .CardOptions {
   position: absolute;
-  top: 100%;
+  top: 135%;
   right: 0;
   margin-top: 30px;
   background: rgba(0,0,0,0.6);
@@ -65,4 +65,13 @@
 .button-group {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .userCart-box .CardOptions {
+    right: 50%;
+    transform: translateX(50%);
+    width: 400%;
+    top: 100%;
+  }
 }

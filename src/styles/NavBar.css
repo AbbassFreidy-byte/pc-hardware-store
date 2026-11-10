@@ -1,33 +1,36 @@
+
 @keyframes colorChanger {
-  0%   { border-color:  #72490c; }
-  25%  { border-color:  #06654e; } 
-  50%  { border-color:  #4013ca; }
-  75%  { border-color:  #217410; } 
-  100% { border-color:  #850d0d; } 
+  0%   { border-color: #72490c; }
+  25%  { border-color: #06654e; }
+  50%  { border-color: #4013ca; }
+  75%  { border-color: #217410; }
+  100% { border-color: #850d0d; }
 }
 
 @keyframes backgroundColorChange {
-  0%   { background:  #72490c; }
-  25%  { background:  #06654e; } 
-  50%  { background:  #4013ca; }
-  75%  { background:  #217410; } 
-  100% { background:  #850d0d; } 
+  0%   { background: #72490c; }
+  25%  { background: #06654e; }
+  50%  { background: #4013ca; }
+  75%  { background: #217410; }
+  100% { background: #850d0d; }
 }
 
-nav h1{
-  margin : 0rem;
-}
 nav {
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  position: relative;
   text-align: center;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  gap: clamp(12px, 2vw, 30px);
+  width: 100%;
+  box-sizing: border-box;
   background: #000000c5;
   color: #fff;
-  padding: 3px;
+  padding: clamp(16px, 2vw, 20px);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top: 2px solid;
@@ -35,7 +38,53 @@ nav {
   animation: colorChanger 5s infinite alternate;
 }
 
+nav h1 {
+  margin: 0;
+  font-size: clamp(1.3rem, 2vw, 2.2rem);
+  overflow-wrap: break-word;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 14px;
+    gap: 12px;
+  }
+
+  nav h1 {
+    font-size: clamp(1.2rem, 3vw, 1.7rem);
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  nav .btn-search {
+    order: 1;
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  nav .btn-menu {
+    order: 2;
+    flex: 0 0 auto;
+  }
+
+  nav .btn-user {
+    order: 3;
+    flex: 0 0 auto;
+  }
 }

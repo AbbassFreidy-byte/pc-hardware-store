@@ -1,6 +1,7 @@
 import './App.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
+import BackgroundMedia from './components/BackgroundMedia';
 import Home from "./pages/Home";
 import ProductsPage from "./pages/ProductsPage";
 import CasesPage from "./pages/Case";
@@ -17,11 +18,12 @@ import CartPage from './pages/CartPage';
 import SignUp from './pages/SignUp';
 import About from './pages/About';
 import ProductDetail from "./pages/ProductURL";
-
+import BackgroundImage from "./assets/BackgroundMain.jpg";
 function App() {
   return (
     <div className="App">
       <HashRouter>
+      <BackgroundMedia src={BackgroundImage} />
       <CartProvider>
       <NavBar />
       <main className="main">

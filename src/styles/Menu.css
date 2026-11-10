@@ -3,8 +3,8 @@ nav details.Menu-box {
 }
 
 .Menu-box .MenuOptions {
-  position: absolute;      
-  top: 6rem; 
+  position: absolute;
+  top: 100%;
   left: 0;
   background: rgba(0, 0, 0, 0.6);
   border: 1.4px solid;
@@ -20,9 +20,10 @@ nav details.Menu-box {
 
 .Menu-box[open] .MenuOptions {
   opacity: 1; 
-  max-height: 400px;
+  max-height: 450%;
   overflow-y: auto; 
 }
+
 .Menu-box .MenuOptions::-webkit-scrollbar {
   width: 4px;
 }
@@ -60,4 +61,12 @@ nav details.Menu-box {
 
 .Menu-box li:last-child {
   border-bottom: none; 
+}
+
+@media (max-width: 480px) {
+  .Menu-box[open] .MenuOptions {
+  opacity: 1; 
+  max-height: 240px;
+  overflow-y: auto; 
+}
 }

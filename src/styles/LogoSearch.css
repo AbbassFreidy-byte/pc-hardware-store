@@ -3,7 +3,7 @@
   overflow: hidden;
   background: #ffffff;
   width: 100%;  
-  max-width: 300px;
+  max-width: 500px;
   border: 3px solid;
   animation: colorChanger 5s infinite alternate;
 }
@@ -38,7 +38,7 @@
   top: 100%;
   background: rgba(255, 255, 255, 0.934);
   border: 1px solid #ccc;
-  width: 250px;
+  width: auto;
   max-height: 200px;
   overflow-y: auto;
   z-index: 1000;

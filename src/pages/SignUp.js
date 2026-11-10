@@ -17,11 +17,11 @@ const SignupPage = () => {
       <h2>Sign Up</h2>
       <form onSubmit={handleSignup}>
         <label>Username</label>
-        <input value={username} onChange={(e) => setUsername(e.target.value)} />
+        <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Enter your username" />
         <label>Email</label>
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Enter your email" />
         <label>Password</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Enter your password" />
         <button type="submit">Create Account</button>
       </form>
      </div>

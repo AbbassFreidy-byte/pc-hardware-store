@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { useCart } from "../context/CartContext";
-import CartPageBackground from "../assets/cartImage.png";
-import BackgroundMedia from "../components/BackgroundMedia";
 import "../styles/CartPage.css";
 
 const CartPage = () => {
@@ -12,9 +10,11 @@ const CartPage = () => {
     return sum + price * item.quantity;
   }, 0);
 
+  const handleCheckout = () => {
+    alert("Proceeding to checkout. Total amount: $" + total.toFixed(2));
+  }
   return (
     <section className="cart-container">
-      <BackgroundMedia src={CartPageBackground} />
       <h2>Your Cart</h2>
       <div className="cart-box">
         {(
@@ -47,7 +47,7 @@ const CartPage = () => {
           <div className="cart-tabs">
              <h3>Total: ${total.toFixed(2)}</h3>
              <button onClick={clearCart}>Clear Cart</button>
-             <button onClick>Proceed to Checkout</button>
+             <button onClick={handleCheckout}>Proceed to Checkout</button>
            </div>
           </div> 
         )}
