@@ -1,4 +1,3 @@
-import React from "react";
 import ProductCard from "./ProductCard";
 import "../styles/ProductsPage.css";
 import "../styles/CategorySection.css";

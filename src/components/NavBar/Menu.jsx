@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/icons8-gear-96.apng.png";
 import CaseLogo from "../../assets/icons8-case-64.png";

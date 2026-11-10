@@ -1,4 +1,3 @@
-import React from "react";
 import Menu from "./Menu";
 import LogoSearch from "./LogoSearch";
 import UserCart from "./UserCart";

@@ -1,6 +1,4 @@
-import React from 'react';
 import "../styles/ProductCard.css";
-import ProductPages from "../pages/ProductDetails";
 import HandleAddToCart from "./HandleAddToCart";
 import { Link } from "react-router-dom";
 

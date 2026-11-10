@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 import UserCartLogo from "../../assets/icons8-user-96.apng.png";
 import "../../styles/UserCart.css";
 

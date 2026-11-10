@@ -1,4 +1,3 @@
-import React from "react";
 
 const BackgroundMedia = ({ src }) => {
   if (!src) return null;
